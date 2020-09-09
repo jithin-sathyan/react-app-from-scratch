@@ -24,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/jithin-sathyan/react-app-from-scratch/issues"
   },
-  "homepage": "https://github.com/jithin-sathyan/react-app-from-scratch#readme"
+  "homepage": "https://github.com/jithin-sathyan/react-app-from-scratch#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0"
+  }
 }
