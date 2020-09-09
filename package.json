@@ -1,0 +1,28 @@
+{
+  "name": "react-app-from-scratch",
+  "version": "1.0.0",
+  "description": "To build a react app from scratch and to know more about the implementation details",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jithin-sathyan/react-app-from-scratch.git"
+  },
+  "keywords": [
+    "React",
+    "React",
+    "app",
+    "from",
+    "scratch",
+    "webpack",
+    "babel"
+  ],
+  "author": "Jithin Sathyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jithin-sathyan/react-app-from-scratch/issues"
+  },
+  "homepage": "https://github.com/jithin-sathyan/react-app-from-scratch#readme"
+}
