@@ -13,17 +13,21 @@ module.exports = {
                 options: { presets: ["@babel/env"] }
             }, {
                 test: /\.css$/,
-                use: ["style-loader", "css-loader"]
+                use: [{ loader: "style-loader" }, {
+                    loader: "css-loader", options: {
+                        modules: true,
+                    }
+                }]
             }]
     },
-    resolve: { extensions: ["*", "js", "jsx"] },
+    resolve: { extensions: ["*", ".js", ".jsx"] },
     output: {
-        path: path.resolve(_dirname, "dist/"),
+        path: path.resolve(__dirname, "dist/"),
         publicPath: "/dist/",
-        fileName: "bundle.js",
+        filename: "bundle.js",
     },
     devServer: {
-        contentBase: path.join(_dirname, "public/"),
+        contentBase: path.join(__dirname, "public/"),
         port: 8000,
         publicPath: "http://localhost:8000/dist/",
         hotOnly: true,
