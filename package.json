@@ -4,7 +4,8 @@
   "description": "To build a react app from scratch and to know more about the implementation details",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "webpack-dev-server --mode development"
   },
   "repository": {
     "type": "git",
@@ -36,5 +37,9 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
